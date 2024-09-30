@@ -1,9 +1,18 @@
+import Footer from "./components/Footer"
+import Contact from "./pages/Contact"
+import Home from "./pages/Home"
+import InformationGrid from "./pages/InformationGrid"
+import Maps from "./pages/Maps"
 function App() {
 
   return (
-    <main>
-      <h1 className="text-red-500">Hola mundo</h1>
-    </main>
+    <>
+      <Home />
+      <Contact />
+      <InformationGrid />
+      <Maps />
+      <Footer />
+    </>
   )
 }
 
