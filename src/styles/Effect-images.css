@@ -38,3 +38,12 @@
         transform: translateY(0);
     }
 }
+
+/* Effect-images.css */
+main {
+  transition: background-color 5s ease;
+}
+
+.white-bg {
+  background-color: white; /* Color blanco al desplazarse hacia abajo */
+}

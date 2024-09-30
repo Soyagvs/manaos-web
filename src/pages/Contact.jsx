@@ -1,12 +1,8 @@
-import Navbar from "../components/Navbar";
 
 export default function Contact() {
     return (
         <>
-            <header>
-                <Navbar />
-            </header>
-            <main className="h-screen">
+            <main className="h-screen" id="contact">
                 <div className="flex flex-col justify-center items-center mt-10 gap-3">
                     <h1 className="text-green-600 font-semibold">Contacto</h1>
                     <h2 className="font-bold text-2xl">Sitio en construccion</h2>
@@ -21,12 +17,12 @@ export default function Contact() {
                             </div>
                             <div className="flex flex-col gap-2">
                                 <label className="text-gray-600 font-semibold" htmlFor="text">Apellido</label>
-                                <input type="text" name="text" className="border border-gray-400 rounded-md h-8 pl-2 w-44" placeholder="Apellido"/>
+                                <input type="text" name="text" className="border border-gray-400 rounded-md h-8 pl-2 w-44" placeholder="Apellido" />
                             </div>
                         </div>
                         <div className="flex flex-col justify-center items-start w-full">
                             <label className="text-gray-600 font-semibold" htmlFor="text">Email</label>
-                            <input type="email" name="email" className="border border-gray-400 w-full rounded-md h-8 pl-2" placeholder="example@example.com"/>
+                            <input type="email" name="email" className="border border-gray-400 w-full rounded-md h-8 pl-2" placeholder="example@example.com" />
                         </div>
                         <div className="flex flex-col justify-center items-start w-full">
                             <label className="text-gray-600 font-semibold" htmlFor="number">Telefono</label>
