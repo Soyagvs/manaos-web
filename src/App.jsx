@@ -5,7 +5,6 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import InformationGrid from "./pages/InformationGrid";
 import Maps from "./pages/Maps";
-import White from './components/White';
 
 function App() {
   const [isNavbarVisible, setIsNavbarVisible] = useState(false);
@@ -44,7 +43,6 @@ function App() {
     <>
       <Navbar isVisible={isNavbarVisible} />
       <Home isVisible={isHomeVisible} scrollingDown={scrollingDown} />
-      <White />
       <Contact />
       <InformationGrid />
       <Maps />

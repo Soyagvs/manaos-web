@@ -28,15 +28,15 @@
   animation: move-arrow 1s infinite;
 }
 @keyframes move-arrow {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-10px);
-    }
-    100%{
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* Effect-images.css */
@@ -47,3 +47,7 @@ main {
 .white-bg {
   background-color: white; /* Color blanco al desplazarse hacia abajo */
 }
+
+
+
+

@@ -2,23 +2,19 @@
 export default function Contact() {
     return (
         <>
-            <main className="h-screen" id="contact">
-                <div className="flex flex-col justify-center items-center mt-10 gap-3">
-                    <h1 className="text-green-600 font-semibold">Contacto</h1>
-                    <h2 className="font-bold text-2xl">Sitio en construccion</h2>
-                    <p className="text-gray-500 text-lg">Contactanos llenando el formulario o usa nuestros numeros de oficinas.</p>
+            <main className="h-screen lg:mt-40 mt-0 flex flex-col justify-center items-center xs:mt-52 sm:mb-52" >
+                <div className="flex flex-col justify-center items-center mt-10 gap-3" id="contact">
+                    <h1 className="text-green-600 font-semibold" >Contacto</h1>
+                    <h2 className="font-bold text-2xl max-sm:text-center">Sitio en construccion</h2>
+                    <p className="text-gray-500 text-lg xs:text-center xs:w-52 sm:w-auto">Contactanos llenando el formulario o usa nuestros numeros de oficinas.</p>
                 </div>
-                <div className="flex justify-center items-center mt-20">
-                    <form action="" className="flex flex-col justify-center items-center w-96 gap-3">
-                        <div className="flex justify-center items-center gap-8">
-                            <div className="flex flex-col gap-2">
-                                <label className="text-gray-600 font-semibold" htmlFor="text">Nombre</label>
-                                <input type="text" name="text" className="border border-gray-400 rounded-md h-8 pl-2 w-44" placeholder="Nombre" />
-                            </div>
-                            <div className="flex flex-col gap-2">
-                                <label className="text-gray-600 font-semibold" htmlFor="text">Apellido</label>
-                                <input type="text" name="text" className="border border-gray-400 rounded-md h-8 pl-2 w-44" placeholder="Apellido" />
-                            </div>
+                <div className="flex justify-center items-center mt-20 ">
+                    <form action="" className="flex flex-col justify-center items-center md:w-96 gap-3 max-xs:w-52 sm:w-full">
+                        <div className="flex flex-col justify-center items-start w-full gap-2">
+                            <label className="text-gray-600 font-semibold" htmlFor="text">Nombre</label>
+                            <input type="text" name="text" className="border border-gray-400 rounded-md w-full h-8 pl-2 " placeholder="Nombre" />
+                            <label className="text-gray-600 font-semibold" htmlFor="text">Apellido</label>
+                            <input type="text" name="text" className="border border-gray-400 rounded-md h-8 pl-2 w-full" placeholder="Apellido" />
                         </div>
                         <div className="flex flex-col justify-center items-start w-full">
                             <label className="text-gray-600 font-semibold" htmlFor="text">Email</label>
